@@ -1,0 +1,16 @@
+<form ng-submit="login()">
+	<dir style="color: red;">{{ login_error }}</dir>
+	<div>
+		<label>Username</label>
+		<input type="text" ng-model="user.username">
+	</div>
+
+	<div>
+		<label>Password</label>
+		<input type="password" ng-model="user.password">
+	</div>
+
+	<dir>
+		<button type="submit">Submit</button>
+	</dir>
+</form>
